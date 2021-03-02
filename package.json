@@ -1,0 +1,23 @@
+{
+  "name": "video-locos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donmen644/videos-locos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donmen644/videos-locos/issues"
+  },
+  "homepage": "https://github.com/donmen644/videos-locos#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
