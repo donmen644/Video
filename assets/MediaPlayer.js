@@ -21,12 +21,4 @@ MediaPlayer.prototype.togglePlay = function () {
     console.log(this.media.paused)
 };
 
-
-const button = document.querySelector("#button")
-
-
-const video = document.querySelector('video');
-const player = new MediaPlayer({ el: video });
-
-
-button.onclick = () => player.togglePlay();
+export default MediaPlayer;
