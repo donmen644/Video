@@ -20,8 +20,8 @@ muteButton.onclick = () => {
     }
 };
 
-if ('serviceWorke' in navegator) [
-    navigator.serviceWorker.register('/sw.js').catch(error =>{
-        console.log(error.message);
-    })
-]
+// if ('serviceWorker' in navegator) [
+//     navigator.serviceWorker.register('/sw.js').catch(error =>{
+//         console.log(error.message);
+//     })
+// ]
