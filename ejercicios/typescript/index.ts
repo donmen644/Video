@@ -1,4 +1,4 @@
-// // Boolean
+//Boolean
 // let muted: boolean = true;
 // muted = false;
 
@@ -71,15 +71,15 @@ let rect: Rectangulo = {
     //color: Color.Rojo,
 };
 
-function area(r: Rectangulo): number{
+function area(r: Rectangulo): number {
     return r.alto * r.ancho;
 }
 
 const areaRect = area(rect);
 console.log(areaRect);
 
-rect.toString = function(){
-    return this.color ? `Un Rectangulo ${this.color}`: `Un Rectangulo`;
+rect.toString = function () {
+    return this.color ? `Un Rectangulo ${this.color}` : `Un Rectangulo`;
 };
 
 console.log(rect.toString());
