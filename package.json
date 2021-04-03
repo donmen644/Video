@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel ./index.html",
     "build": "parcel build --public-url ./ index.html"
-
   },
   "repository": {
     "type": "git",
