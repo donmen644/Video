@@ -13,11 +13,7 @@ class MediaPlayer {
     private _initPlugins() {
         this.plugins.forEach(plugin => {
             plugin.run(this);
-        });
-
-        this.plugins.forEach(plugin => {
-            plugin.run(this);
-        });
+        }); 
     }
 
     play() {
